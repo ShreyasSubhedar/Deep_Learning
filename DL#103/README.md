@@ -9,9 +9,9 @@
 ## advantage of Sigmoid :-
 
 - Here the function is exponential
-- It has curve to separate and hence can give probability on the basis of given paramter.
+- It has curve to separate and hence can give probability on the basis of given parameter.
 - Decision boundary is more useful in real life scenario.
-- We use gradient descent for paramter learning.
+- We use gradient descent for parameter learning.
 - We use `MSE`(Mean Squared Error) as well as `CE`(Cross Entropy) for loss function.
 
 ## Working of Sigmoid Gradient descent on toy data :-
