@@ -27,3 +27,16 @@ complicated structure.
 -  A deep neural network with a certain number of hidden layers would
 be able to approximate any function between the input and output
 **This is called the Universal Approximation Theorem (ŷ≃y’)**
+
+## Illustrative Proof of Universal Approximation Theorem
+
+> This proof is not really in mathematical way but it helps us to convince that the brick **sigmoid neuron** can approximate the relation b/w input and output.
+- Consider one complex function like this:-
+![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Simple_sine_wave.svg/1200px-Simple_sine_wave.svg.png)
+- As we discussed its difficult to come up with complex function.
+- Hence we assume the `impulsive functions` and these functions can further integrate to make the final output.
+![Image]()
+- The `impulsive function`(rectangle shape function ) are formed with the help of 2 sigmoid functions.
+    - As we know weights `w` decides the curve(sharpness) of sigmoid and bias `b` decides the shift of the sigmoid 
+    - Consider the subtraction of 2 sigmoid given below:-
+![Image]()
