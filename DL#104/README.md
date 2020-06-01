@@ -9,4 +9,4 @@
 
 - Sigmoid neuron is one of the continuous model but failed to separate this data, hence the reason why we require more complex functions.
 
--![Image](https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-01%2019-15-33.png)
+![Image](https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-01%2019-15-33.png)
