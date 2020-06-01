@@ -35,8 +35,9 @@ be able to approximate any function between the input and output
 ![Image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Simple_sine_wave.svg/1200px-Simple_sine_wave.svg.png)
 - As we discussed its difficult to come up with complex function.
 - Hence we assume the `impulsive functions` and these functions can further integrate to make the final output.
-![Image]()
+
+![Image](https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-01%2022-08-28.png)
 - The `impulsive function`(rectangle shape function ) are formed with the help of 2 sigmoid functions.
     - As we know weights `w` decides the curve(sharpness) of sigmoid and bias `b` decides the shift of the sigmoid 
     - Consider the subtraction of 2 sigmoid given below:-
-![Image]()
+<img align="center" src="https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-01%2022-19-39.png" height=300px>
