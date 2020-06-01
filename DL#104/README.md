@@ -20,10 +20,10 @@ approach
 out of thin air, instead we consider the most basic unit of the building: the brick.
 - The bricks are combined one after the other, in different ways, that ultimately amount to a very
 complicated structure.
-- In our context, ** the building would be the complex function and the brick would be a single
-sigmoid neuron **
+- In our context, **The building would be the complex function and the brick would be a single sigmoid neuron**
 
-![Image]()
-- The building that we have constructed with the sigmoid neurons is nothing but a ** deep neural
-network. **
-- 
+![Image](https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-01%2020-33-23.png)
+- The building that we have constructed with the sigmoid neurons is nothing but a **deep neural network.**
+-  A deep neural network with a certain number of hidden layers would
+be able to approximate any function between the input and output
+**This is called the Universal Approximation Theorem (ŷ≃y’)**
