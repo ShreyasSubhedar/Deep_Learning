@@ -41,3 +41,13 @@ be able to approximate any function between the input and output
     - As we know weights `w` decides the curve(sharpness) of sigmoid and bias `b` decides the shift of the sigmoid 
     - Consider the subtraction of 2 sigmoid given below:-
 <img align="center" src="https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-01%2022-19-39.png" height=300px>
+
+## Deep Neural Network:
+> We can build complex functions using DNN with Sigmoid neuron as a basic building block.
+- The data can we a real value input hence the task is classified into 4 types
+    1. Multi class classification (Digit Recognition)
+    2. Binary classification (Text non-Text) 
+    3. Regression (real value output i.e (Housing price prediction))
+    4. Generation (NLP)
+- the figure shows how to use the DNN to approximate the output of the complex function.
+- Setting the best configuration for our task  to reduce the loss is known as **hyperparameter tunning**.s
