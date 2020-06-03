@@ -50,4 +50,29 @@ be able to approximate any function between the input and output
     3. Regression (real value output i.e (Housing price prediction))
     4. Generation (NLP)
 - the figure shows how to use the DNN to approximate the output of the complex function.
-- Setting the best configuration for our task  to reduce the loss is known as **hyperparameter tunning**.s
+- Setting the best configuration for our task  to reduce the loss is known as **hyperparameter tunning**.
+
+## Generic Deep Neural Network:
+![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhackernoon.com%2Fdeep-learning-feedforward-neural-networks-explained-c34ae3f084f1&psig=AOvVaw1U_i1Xu9xS172T6GnewmBL&ust=1591244700942000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiWwNrm5OkCFQAAAAAdAAAAABAE)
+> In Deep neural network their are 3 layers:
+    1. Output Layer
+    2. Hidden Layer
+    3. Input Layer
+### Output Layer: 
+- This layer contains the final output of the model
+-  `f(x) = hL = O(aL)` where ‘O’ is called the output activation function and L is the last hidden layer input
+
+### Hidden Layer:
+- This layer consist of multiple neurons where each layer is input to next layer.
+- Every neuron is characterized into 2 parts **Pre Activation and Activation**
+- The Activation h(x) = g(a(x)) where ‘g’ is called the activation function
+
+### Input Layer:
+- In this layer the input is connected to the hidden layer 
+- It is aggregation of weighted sum.
+- W*x+b
+
+
+
+
+
