@@ -67,12 +67,12 @@ be able to approximate any function between the input and output
 ### Hidden Layer:
 - This layer consist of multiple neurons where each layer is input to next layer.
 - Every neuron is characterized into 2 parts **Pre Activation and Activation**
-- The Activation h(x) = g(a(x)) where ‘g’ is called the activation function
+- The Activation `h(x) = g(a(x))` where ‘g’ is called the activation function
 
 ### Input Layer:
 - In this layer the input is connected to the hidden layer 
 - It is aggregation of weighted sum.
-- W*x+b
+- `W*x+b`
 
 
 
