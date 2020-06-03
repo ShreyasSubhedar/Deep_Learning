@@ -53,11 +53,13 @@ be able to approximate any function between the input and output
 - Setting the best configuration for our task  to reduce the loss is known as **hyperparameter tunning**.
 
 ## Generic Deep Neural Network:
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fhackernoon.com%2Fdeep-learning-feedforward-neural-networks-explained-c34ae3f084f1&psig=AOvVaw1U_i1Xu9xS172T6GnewmBL&ust=1591244700942000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiWwNrm5OkCFQAAAAAdAAAAABAE)
 > In Deep neural network their are 3 layers:
     1. Output Layer
     2. Hidden Layer
     3. Input Layer
+    
+![Image](https://hackernoon.com/hn-images/1*LsmIIg6u4BhGHIykJNa2hA.png)
+
 ### Output Layer: 
 - This layer contains the final output of the model
 -  `f(x) = hL = O(aL)` where ‘O’ is called the output activation function and L is the last hidden layer input
