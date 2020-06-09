@@ -75,7 +75,7 @@ be able to approximate any function between the input and output
 - `W*x+b`
 
 > The final output of the DNN will be of dimension k where k is the no of neurons in final layer 
-- ![IMg]()
+ ![IMg](https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-09%2011-08-56.png)
 
 
 
@@ -88,7 +88,7 @@ be able to approximate any function between the input and output
 - we can use cross entropy loss function
 -   However a shortcut in the case of binary classification would be to use only one output neuron
 that uses a sigmoid function. 
-![Image]()
+![Image](https://github.com/ShreyasSubhedar/Deep_Learning/blob/master/DL%23104/Images/Screenshot%20from%202020-06-09%2012-13-05.png)
 
 ## Loss function for multi-class lassification:
 - here also we are using cross entropy loss function 
