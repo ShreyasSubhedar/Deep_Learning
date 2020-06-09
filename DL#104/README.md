@@ -74,7 +74,37 @@ be able to approximate any function between the input and output
 - It is aggregation of weighted sum.
 - `W*x+b`
 
+> The final output of the DNN will be of dimension k where k is the no of neurons in final layer 
+- ![IMg]()
 
 
 
+## How we practice the non-linearly separable data in day to day job?
+- we try different DNN and calculate loss of each .
+- the one who yield least loss is selected.
+- This process of tuning the DNN i.e. The No. of layers, No. of neurons in each layer, learning rate, batch size etc are together called Hyperparameter Tuning 
+## Loss function for Binary classification:
+> Important : If their are n inputs and m outputs , then there will be n*m weights per layer.
+- we can use cross entropy loss function
+-   However a shortcut in the case of binary classification would be to use only one output neuron
+that uses a sigmoid function. 
+![Image]()
 
+## Loss function for multi-class lassification:
+- here also we are using cross entropy loss function 
+    ![image](https://miro.medium.com/max/919/1*ETtY7KCrzAlOmLeyDWE4Xg.png)
+- If we notice , the Binary classification can be categorized as a multi-class classification  by adding one more neuron in output layer.
+
+## Learning Algorithm :
+- Gradient descent will work
+
+## Evaluation :
+- Here if we want to check how our DNN performs then we have to calculate its evaluation which is nothing but accuracy.
+- We can calculate accuracy in 2 different terminologies.
+    - `All over Accuracy`.
+        No. of correct predictions divided by total no. of predictions.
+    - `Per class Accuracy`.
+        No of times `i` was correctly predicted as `i` when `i` was shown divided by total no. of times `i` was shown. 
+
+## Summary :
+- [Link to pdf](https://d11kzy43d5zaui.cloudfront.net/DeepLearningCourse/pdf/Feedforward-Neural-Networks/Lesson+18_+Summary.pdf)
